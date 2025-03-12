@@ -7,7 +7,7 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
 ## Sobre mim
 
---PREENCHER--
+**fabio**
 
 ## DICAS:
 
