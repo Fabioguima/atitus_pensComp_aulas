@@ -1,2 +1,5 @@
 name = input("Qual seu nome?")
-print("Olá,", name)
+sobrenome = input("Qual seu sobrenome?")
+
+
+print("Olá,", name, sobrenome)
