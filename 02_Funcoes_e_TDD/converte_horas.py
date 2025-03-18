@@ -7,6 +7,7 @@ def minuto_para_segundo(valor):
 
 def hora_para_segundo(valor):
     return valor * 60 * 60
+    #outra forma de resolver (resolve dos () para fora) ---> minuto_para_segundohora_para_minuto(valor)
 
 assert hora_para_minuto(0) == 0
 assert hora_para_minuto(1) == 60
