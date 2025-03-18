@@ -9,7 +9,7 @@ def hora_para_segundo(valor):
     return valor * 60 * 60
     #outra forma de resolver (resolve dos () para fora) --->       minuto_para_segundohora_para_minuto(valor)
 
-def dias_para_segundo(valor):
+def dia_para_segundo(valor):
     #return valor 24 * 60 * 60
     return hora_para_minuto(minuto_para_segundo(valor)) * 24
 
