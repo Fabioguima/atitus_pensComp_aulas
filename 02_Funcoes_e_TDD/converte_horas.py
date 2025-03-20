@@ -14,6 +14,7 @@ def dia_para_segundo(valor):
     return hora_para_minuto(minuto_para_segundo(valor)) * 24
 
 def test():
+    
 
 assert hora_para_minuto(0) == 0
 assert hora_para_minuto(1) == 60
