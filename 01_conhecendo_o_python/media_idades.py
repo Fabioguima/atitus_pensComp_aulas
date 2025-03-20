@@ -6,6 +6,8 @@ idade_E = input("me de outra idade: ")
 
 media = (idade_A + idade_B + idade_C + idade_D + idade_E) / 5
 
+def test():
+
 print("A média é", media)
 
 #idade_A = 19

@@ -12,6 +12,7 @@ def subtracao(d, e):
 def ola_mundo():
     print("Olá, mundo!")
 
+def test():
 
 print(numero_favorito())  # Saída: 42
 ola_mundo()  # Saída: Olá, mundo!

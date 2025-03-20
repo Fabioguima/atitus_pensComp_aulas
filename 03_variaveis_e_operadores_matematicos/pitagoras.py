@@ -9,7 +9,8 @@ def perimetro(largura, altura):
 def hipotenusa(largura, altura):
     return (((largura ** 2) + (altura ** 2)) ** (1/2))
 
-
+def test():
+    
 assert area(5, 5) == 25
 assert area(0, 5) == 0
 assert area(10, 5) == 50
