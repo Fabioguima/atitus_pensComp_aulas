@@ -1,16 +1,13 @@
 def area(largura, altura):
-    # Preencher
-    pass
+    return largura * altura
 
 
 def perimetro(largura, altura):
-    # Preencher
-    pass
+    return (largura + altura) * 2
 
 
 def hipotenusa(largura, altura):
-    # Preencher
-    pass
+    return (((largura ** 2) + (altura ** 2)) ** (1/2))
 
 
 assert area(5, 5) == 25
@@ -24,3 +21,6 @@ assert perimetro(10, 5) == 30
 assert hipotenusa(4, 3) == 5
 assert hipotenusa(6, 8) == 10
 assert hipotenusa(5, 12) == 13
+
+print('Hello world')
+print(bool(hipotenusa(4, 3) == 5))
