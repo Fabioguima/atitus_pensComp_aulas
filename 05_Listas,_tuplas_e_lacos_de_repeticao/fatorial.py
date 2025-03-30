@@ -1,8 +1,12 @@
 def fatorial(numero):
-    if numero == 0 or numero == 1:
-        return 1
-    else:
-        return numero * fatorial(numero - 1)
+    if numero <= -1:
+        return None
+    resultado = 1
+    contador = 1
+    while contador <= numero:
+        resultado = resultado * contador
+        contador += 1
+    return resultado
 
 def test():
     assert fatorial(0) == 1
@@ -13,6 +17,4 @@ def test():
     assert fatorial(5) == 120
     assert fatorial(-1) is None
 
-print(fatorial(2))
-
-#erro numero -
+print(fatorial(4))
