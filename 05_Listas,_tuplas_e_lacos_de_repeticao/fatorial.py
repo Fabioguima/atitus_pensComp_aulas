@@ -5,7 +5,7 @@ def fatorial(numero):
     contador = 1
     while contador <= numero:
         resultado = resultado * contador
-        contador += 1
+        contador = contador + 1
     return resultado
 
 def test():
