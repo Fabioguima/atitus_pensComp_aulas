@@ -22,4 +22,4 @@ def test():
     assert baskhara(1, 2, 3) is None
     assert baskhara(1, 0, 0) == 0
 
-print(baskhara(2, 3, -2) == [-2, 0.5])
+print(baskhara(1, 0, 0) == 0)
