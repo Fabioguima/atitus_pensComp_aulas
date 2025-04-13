@@ -1,4 +1,4 @@
-ANO_ATUAL = 2024
+ANO_ATUAL = 2025
 
 
 def saudacao(nome, sobrenome, ano_nascimento):
