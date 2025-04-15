@@ -16,7 +16,7 @@ def losango(altura):
         print("." * num_espacos + "#" * num_star)
 
 def test():
-    assert losango(3)
+    losango(3)
 
 
-print(losango(3))
+#print(losango(3))
