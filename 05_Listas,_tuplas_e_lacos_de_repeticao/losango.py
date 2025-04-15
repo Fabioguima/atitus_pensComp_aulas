@@ -17,6 +17,3 @@ def losango(altura):
 
 def test():
     losango(3)
-
-
-#print(losango(3))
