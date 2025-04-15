@@ -18,3 +18,5 @@ def losango(altura):
 def test():
     assert losango(3)
 
+
+print(losango(3))
