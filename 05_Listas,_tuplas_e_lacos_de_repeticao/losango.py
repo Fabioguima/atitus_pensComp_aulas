@@ -1,6 +1,6 @@
 #altura = int(input("Digite um valor ímpar para a altura do losango: "))
 
-def altura():
+def losango(altura):
     if altura % 2 == 0:
         altura = altura + 1
         print("O valor digitado era par, usaremos", altura, "no lugar")
@@ -16,5 +16,5 @@ def altura():
         print("." * num_espacos + "#" * num_star)
 
 def test():
-    assert altura(3)
+    assert losango(3)
 
