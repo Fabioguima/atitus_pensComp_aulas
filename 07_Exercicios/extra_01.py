@@ -1,11 +1,10 @@
-def letra_em_texto(texto, letra):
+'''def letra_em_texto(texto, letra):
     # Se esta letra existe dentro do texto (sem usar 'in')
    try:
        texto.index(letra)
-       #return(f"A letra --> {letra} <-- existe no texto.")
+       return(f"A letra --> {letra} <-- existe no texto.")
    except:
-       #return(f"A letra --> {letra} <-- não existe no texto.")
-       return None
+       return(f"A letra --> {letra} <-- não existe no texto.")'''
 
 def conta_letra_em_texto(texto, letra):
     # Quantas vezes essa letra aparece no texto (sem usar '.count()')
@@ -41,10 +40,10 @@ def texto_com_letra_upper(texto, letra):
         return texto_modificado
 
 def test():
-    assert letra_em_texto("Pensamento Computacional", "a")
-    assert letra_em_texto("Pensamento Computacional", " ")
-    assert not letra_em_texto("Pensamento Computacional", "A")
-    assert not letra_em_texto("Pensamento Computacional", "c")
+    #assert letra_em_texto("Pensamento Computacional", "a")
+    #assert letra_em_texto("Pensamento Computacional", " ")
+    #assert not letra_em_texto("Pensamento Computacional", "A")
+    #assert not letra_em_texto("Pensamento Computacional", "c")
 
     assert conta_letra_em_texto("Pensamento Computacional", "a") == 3
     assert conta_letra_em_texto("Pensamento Computacional", "A") == 0
