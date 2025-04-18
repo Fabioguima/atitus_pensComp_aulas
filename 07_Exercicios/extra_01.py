@@ -63,4 +63,4 @@ def test():
         texto_com_letra_upper("Pensamento Computacional", " ") == "Pensamento Computacional"
     )
 
-print(letra_em_texto("Pensamento Computacional", "a"))
+#print(letra_em_texto("Pensamento Computacional", "a"))
