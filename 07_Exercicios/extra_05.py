@@ -3,12 +3,12 @@ nota_2 = 10  #int(input("Digite a segunda nota: "))
 nota_3 = 10  #int(input("Digite a terceira nota: "))
 nota_4 = 10  #int(input("Digite a quarta nota: "))
 
-media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+status_aluno = (nota_1 + nota_2 + nota_3 + nota_4) / 4
 
-if media >= 7:
-    print(f"Sua nota foi {media}. Aluno aprovado!")
+if status_aluno >= 7:
+    print(f"Sua nota foi {status_aluno}. Aluno aprovado!")
 else:
-    print(f"Sua nota foi {media}.Aluno reprovado!")
+    print(f"Sua nota foi {status_aluno}.Aluno reprovado!")
 
 def test():
     assert status_aluno([10, 10, 10, 10])
