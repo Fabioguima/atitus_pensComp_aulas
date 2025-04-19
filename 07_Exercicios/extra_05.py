@@ -3,7 +3,7 @@ nota_2 = 10  #int(input("Digite a segunda nota: "))
 nota_3 = 10  #int(input("Digite a terceira nota: "))
 nota_4 = 10  #int(input("Digite a quarta nota: "))
 
-status_aluno = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+status_aluno = int((nota_1 + nota_2 + nota_3 + nota_4) / 4)
 
 if status_aluno >= 7:
     print(f"Sua nota foi {status_aluno}. Aluno aprovado!")
