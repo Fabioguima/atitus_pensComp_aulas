@@ -10,6 +10,7 @@ def status_aluno(notas):
         soma += nota
     media = soma / len(notas)
     
+    
     if media >= 7:
         return True  # Aprovado!
     else:
