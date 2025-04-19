@@ -1,19 +1,26 @@
-nota_1 = 10  #int(input("Digite a primeira nota: "))
-nota_2 = 10  #int(input("Digite a segunda nota: "))
-nota_3 = 10  #int(input("Digite a terceira nota: "))
-nota_4 = 10  #int(input("Digite a quarta nota: "))
-
-status_aluno = int((nota_1 + nota_2 + nota_3 + nota_4) / 4)
-
-if status_aluno >= 7:
-    assert True
-else:
-    assert False
+def status_aluno(notas):
+    #Verificar se todas as notas são válidas
+    for nota in notas:
+        if nota is None:
+            return False
+    
+    #Calcula a média das notas
+    soma = 0
+    for nota in notas:
+        soma += nota
+    media = soma / len(notas)
+    
+    if media >= 7:
+        return True  # Aprovado!
+    else:
+        return False  # Reprovado!
 
 def test():
     assert status_aluno([10, 10, 10, 10])
-    assert status_aluno([10, None, 10, 10])
+    assert status_aluno([10, None, 10, 10]) 
 
     assert not status_aluno([10, 5, None, 5])
     assert not status_aluno([5, 5, 5, 5])
     assert not status_aluno([0, 0, 0, 0])
+
+print(status_aluno([10, 10, 10, 10]))
