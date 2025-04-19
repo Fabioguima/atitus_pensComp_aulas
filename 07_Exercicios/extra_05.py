@@ -6,9 +6,9 @@ nota_4 = 10  #int(input("Digite a quarta nota: "))
 status_aluno = int((nota_1 + nota_2 + nota_3 + nota_4) / 4)
 
 if status_aluno >= 7:
-    print(f"Sua nota foi {status_aluno}. Aluno aprovado!")
+    assert True
 else:
-    print(f"Sua nota foi {status_aluno}.Aluno reprovado!")
+    assert False
 
 def test():
     assert status_aluno([10, 10, 10, 10])
