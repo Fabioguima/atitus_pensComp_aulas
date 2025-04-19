@@ -1,8 +1,8 @@
 def status_aluno(notas):
     #Verificar se todas as notas são válidas
-    for nota in notas:
-        if nota is None:
-            return False
+    #for nota in notas:
+      #  if nota is None:
+         #   return False
     
     #Calcula a média das notas
     soma = 0
