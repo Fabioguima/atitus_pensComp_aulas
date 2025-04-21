@@ -7,7 +7,35 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
 ## Sobre mim
 
-**fabio**
+**Prazer sou Fábio ;)**
+
+Curso Ciências da Computação na Atitus, estou no primeiro semestre e sempre aproveito as oportunidades de agregar conhecimento!!!
+
+Receita simples de bolo de chocolate:
+
+**Ingredientes:**
+
+2 xícaras de açúcar
+1 e 3/4 xícaras de farinha de trigo
+3/4 de xícara de cacau em pó
+1 e 1/2 colher de chá de fermento em pó
+1 e 1/2 colher de chá de bicarbonato de sódio
+1 colher de chá de sal
+2 ovos
+1 xícara de leite integral
+1/2 xícara de óleo vegetal
+2 colheres de chá de essência de baunilha
+1 xícara de água fervente
+
+
+*Modo de preparo:*
+
+Pré-aqueça o forno a 180°C. Unte uma forma com manteiga e farinha.
+Em uma tigela grande, misture o açúcar, a farinha, o cacau, o fermento, o bicarbonato e o sal.
+
+
+![Samuray boleiro](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adrenaline.com.br%2Fgames%2Fghost-of-yotei-e-anunciado-e-chega-ao-ps5-em-2025-confira-o-trailer%2F&psig=AOvVaw06EBtA9yLIsjDnKIW10uwp&ust=1745348796439000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJipiJrp6YwDFQAAAAAdAAAAABAE)
+
 
 ## DICAS:
 
