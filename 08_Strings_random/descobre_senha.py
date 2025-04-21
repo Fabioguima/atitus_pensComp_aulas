@@ -1,4 +1,4 @@
-n_secreto = 5
+'''n_secreto = 5
 tentativas = 1
 palpite = int(input("Tente adivinhar o número: "))
 
@@ -7,4 +7,4 @@ while palpite != n_secreto:
     tentativas += 1
     palpite = int(input("Tente adivinhar o número: "))
 
-print(f"Parabéns! Você acertou com {tentativas} tentativas")
+print(f"Parabéns! Você acertou com {tentativas} tentativas")'''
