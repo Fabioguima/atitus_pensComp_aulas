@@ -34,7 +34,7 @@ Pré-aqueça o forno a 180°C. Unte uma forma com manteiga e farinha.
 Em uma tigela grande, misture o açúcar, a farinha, o cacau, o fermento, o bicarbonato e o sal.
 
 
-![Samuray boleiro](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adrenaline.com.br%2Fgames%2Fghost-of-yotei-e-anunciado-e-chega-ao-ps5-em-2025-confira-o-trailer%2F&psig=AOvVaw06EBtA9yLIsjDnKIW10uwp&ust=1745348796439000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJipiJrp6YwDFQAAAAAdAAAAABAE)
+![Samuray boleiro](https://www.adrenaline.com.br/wp-content/uploads/2024/09/Ghost-of-Yotei-e-anunciado-e-chega-ao-PS5-em-2025-912x569.jpg)
 
 
 ## DICAS:
