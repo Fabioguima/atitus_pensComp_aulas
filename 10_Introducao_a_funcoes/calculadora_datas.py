@@ -1,7 +1,7 @@
 """
 Meses sao representados como: 1=Jan, 2=Feb, 3=Mar..
 """
-
+'''
 MESES_31_DIAS = [1, 3, 5, 7, 8, 10, 12]
 MESES_30_DIAS = [4, 6, 9, 11]
 
@@ -51,3 +51,4 @@ assert calcula_diferenca([24, 10, 2024], [24, 7, 1991 + 85]) == 18900
 # Diferenca entre 24/7/1991 e 24/7/2076 é de 31046 dias
 assert calcula_diferenca([24, 7, 1991], [24, 7, 1991 + 85]) == 31046
 # A data 24/10/2024 representa 39.12259228241963% entre 24/7/1991 e 24/7/2076
+'''
