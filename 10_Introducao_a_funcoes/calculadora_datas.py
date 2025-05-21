@@ -1,6 +1,6 @@
 #Meses sao representados como: 1=Jan, 2=Feb, 3=Mar..
 
-'''
+
 MESES_31_DIAS = [1, 3, 5, 7, 8, 10, 12]
 MESES_30_DIAS = [4, 6, 9, 11]
 
@@ -45,7 +45,7 @@ def test():
 #print(formata_data([1, 2, 2024]) == "1/2/2024")
 #print(formata_data([1, 12, 2024]) == "1/12/2024")  ----> TESTES TRUE
 
-
+'''
 def calcula_diferenca(data1: list, data2: list) -> int:
     def dias_inicio(data):
         if formata_data(data):
