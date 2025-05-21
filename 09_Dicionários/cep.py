@@ -84,7 +84,7 @@ user_consulta()
 #   SOLUÇÃO PROFESSOR
 
 
-
+'''
 import http.client
 import json
 
@@ -151,4 +151,4 @@ def main():
 
 
 main()
-
+'''
