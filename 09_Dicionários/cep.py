@@ -2,8 +2,11 @@
 
 #   COMENTADO PELO FATO DE NÃO TER DEF TEST
 
-'''''
+
 LEN_CEP = 8
+
+
+'''
 
 def user_consulta():
     cep = input('Digite o CEP que deseja validar: ')
@@ -98,6 +101,7 @@ def get_cep_data_from_api(val):
     response = json.loads(conn.getresponse().read().decode())
     conn.close()
     return response
+'''
 
 
 def is_cep_valid(val):
@@ -109,6 +113,7 @@ def is_cep_valid(val):
     return True
 
 
+'''
 def consuta_ceps_conhecidos(ceps_conhecidos, cep):
     for uf in ceps_conhecidos.keys():
         for localidade in ceps_conhecidos[uf].keys():
@@ -151,8 +156,7 @@ def main():
 
 
 main()
-
-
+'''
 
 
 
@@ -160,4 +164,3 @@ def test():
     assert not is_cep_valid('')
     assert is_cep_valid('99999-000')
 
-'''
