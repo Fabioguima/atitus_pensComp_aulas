@@ -151,4 +151,13 @@ def main():
 
 
 main()
+
+
+
+
+
+def test():
+    assert not is_cep_valid('')
+    assert is_cep_valid('99999-000')
+
 '''
