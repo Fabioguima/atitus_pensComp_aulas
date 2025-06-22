@@ -1,4 +1,4 @@
-    write --> só aceita string
+    write --> só aceita string.
 
     conteudo = arquivo.write('\n'.join(alunos_com_virgula)) 
 

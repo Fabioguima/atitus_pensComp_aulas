@@ -28,4 +28,4 @@ x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
         valor = response['data']["amount"]
         moeda_a = response['data']["base"]
         moeda_b = response['data']["currency"]
-    Para entrar dentro do dicionario
+    Para entrar dentro do dicionario.
