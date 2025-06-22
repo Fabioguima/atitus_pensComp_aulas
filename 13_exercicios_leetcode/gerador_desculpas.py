@@ -1,3 +1,5 @@
+import random
+
 INTRODUCOES = [
     "Tudo bem? É o seguinte...",
     "Você não vai acreditar, mas",
@@ -22,13 +24,20 @@ EVENTOS = [
     "nerfou meu mago lv 30",
     "me venceu com o Exódia",
     "não sabe tocar piano",
-    "pôs meu nome no Death Note",
+    " ]pôs meu nome no Death Note",
 ]
 
 
 def string_aleatoria(opcoes: list) -> str:
-    pass
-
+    parte1 = random.choice(INTRODUCOES)
+    parte2 = random.choice(OBJETOS)
+    parte3 = random.choice(EVENTOS)
+    return parte1, parte2, parte3
 
 def gerador_desculpas(tarefa: str) -> str:
-    pass
+    parte_intro, parte_obje, parte_eve = string_aleatoria([])
+    print(f'{parte_intro} {tarefa} porquê {parte_obje} {parte_eve}')
+
+print('Não sabe qual desculpa inventara hoje, vou te dar uma mãozinha\nUse com responsabilidade!!!\n')
+desculpa_esfarrapada = input('Qual sua queixa: ')
+gerador_desculpas(desculpa_esfarrapada)
